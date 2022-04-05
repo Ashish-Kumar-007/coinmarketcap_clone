@@ -53,7 +53,7 @@ export default function Home(props) {
                     {formatPercent(coin.price_change_percentage_24h)}
                   </span>
                 </td>
-                <td>{formatPercent(coin.total_volume)}</td>
+                <td>{coin.total_volume}</td>
                 <td>{formatDollar(coin.current_price, 20)}</td>
                 <td>{formatDollar(coin.market_cap, 12)}</td>
 
